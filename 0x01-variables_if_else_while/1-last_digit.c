@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include <slib.h>
+#include <stdlib.h>
 #include <time.h>
 
 /**
- * main - tect according to a number
- * Return : alway (success)
+ * main - text according to a number
+ * Return : always (success)
+ *
 */
 
 int main(void)
@@ -29,3 +30,4 @@ int main(void)
 	printf("last digit of %d is %d and is less than 6 and is not 0\n", n, lastd);
 	}
 	return (O);
+}

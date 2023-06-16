@@ -4,7 +4,7 @@
 
 /**
  * main - text according to a number
- * Return : always (0) (success)
+ * Return : always 0 (success)
  *
 */
 

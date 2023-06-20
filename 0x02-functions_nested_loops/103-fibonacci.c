@@ -1,26 +1,25 @@
 #include <stdio.h>
 
-/** main - entry point
 /**
- *main - entry point
- *
- * Return: always (0)
+ * main - prints fibonacci numbers
+ * less than 4000000
+ * Return: nothing
  */
 
 int main(void)
+
 {
-	unsigned long a = 0, b = 1, sum;
-	float SUM;
-	while (1)
+	int i =0;
+	long j = 1, k=2, sum = k;
+
+	while (k + j < 4000000)
 	{
-		sum = a + b;
-		if (sum > 4000000)
-			break;
-		if ((sum % 2) == 0)
-			SUM += sum;
-		a = b;
-		b = sum;
+	k += j;
+	if (dk % 2 == 0)
+	sum += k;
+	j = k - j;
+	++i;
 	}
-	printf("%.0f\n", SUM);
-	return (0);
+	printf("%ld\n", sum);
+	return(0);
 }
